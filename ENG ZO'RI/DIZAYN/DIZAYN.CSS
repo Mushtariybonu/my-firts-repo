@@ -1,0 +1,176 @@
+*,  {
+	margin: 0;
+	padding: 0; 
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+body {
+	font-family: 'Roboto', cursive;
+	font-size: 14px;
+}
+.container {
+	width: 850px;
+	padding: 0 35px;
+	margin: 0 auto;
+}
+.header-inner {
+	height: 220px;
+	margin: 0 auto;
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+}
+.header-logo {
+	width: 250px;
+	height: 163px;
+	background: url(../picture/logo.jpg) center center/contain no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	align-items: center;
+}
+.header-logo h1 {
+	font-size: 36px;
+	font-weight: 700;
+}
+.header-logo h3 {
+	font-size: 14px;
+	font-weight: 300;
+}
+.nav {
+	width: 100%;
+	height: 50px;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 0;
+}
+.nav-menu {
+	height: 100%;
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.nav-link {
+	text-transform: uppercase;
+}
+.nav-link {
+	display: block;
+	line-height: 50px;
+	padding: 0 20px;
+}
+.nav-link.active, .nav-link:hover {
+	background-color: #efefef;
+}
+.content {
+	padding: 35px 0;
+}
+.meal-items {
+	display: flex;
+	flex: 1 1 33.333%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.meal-item {
+	width: 245px;
+	height: 350px;
+	font-display: column;
+	margin-bottom: 30px;
+}
+.meal-img {
+	max-width: 100%;
+	min-height: 144px;
+	margin-bottom: 10px;
+}
+.meal-category {
+	display: inline-block;
+	padding: 5px 15px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.SHASHLIK {
+	background-color: #f0932b;
+}
+.meal-title {
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	font-size: 14px;
+}
+.meal__desc {
+
+}
+.GAMBURGER {
+	background-color: #7ed6df;
+}
+.HOT-DOG {
+	background-color: #ff7979;
+}
+.KIBIM-PAP  {
+	background-color: #badc58;
+}
+.KIM-PAP  {
+	background-color: #badc58;
+}
+.TOVUQ {
+	background-color: #7ed6df;
+}
+.ALL-ITEMS {
+	display: flex;
+	justify-content: center;
+}
+.mael-all-items {
+
+}
+.btn {
+	padding: 15px 30px;
+	cursor: pointer;
+}
+.btn-all {
+	border: 2px solid #ff7979;
+	color: #ff7979;
+	background-color: #fff;
+	font-weight: 700;
+	font-size: 16px;
+}
+.futer {
+	width: 100%;
+	height: 260px;
+	background: url(../picture/QAYLA.jpg) center center/100% no-repeat;
+	text-align: center;
+}
+.futer-from {
+
+}
+.from {
+
+}
+.from-email{
+	width: 350px;
+	height: 45px;
+	border: none;
+	line-height: 45px;
+	padding: 0 30px;
+	outline: none;
+	margin-right: 30px;
+}
+.from-submit {
+	border: none;
+	background-color: #ff7979;
+	font-weight: 700;
+	margin: 90px 0 50px 0;
+	color: #fff;
+}
+footer p {
+	font-weight: 700;
+	font-size: 22px;
+	color: #fff;
+}
